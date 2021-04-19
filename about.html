@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.0.2/chart.min.js" integrity="sha512-dnUg2JxjlVoXHVdSMWDYm2Y5xcIrJg1N+juOuRi0yLVkku/g26rwHwysJDAMwahaDfRpr1AxFz43ktuMPr/l1A==" crossorigin="anonymous"></script>
+    <title>Shochan Studio</title>
+</head>
+<header>
+    <ul class="header-menu">
+        <li class="menu-item"><a href="index.html"><h2>HOME</h2></a></li>
+        <li class="menu-item"><a href="about.html"><h2>ABOUT</h2></a></li>
+        <li class="menu-item"><a href="prg.html"><h2>PROGRAMMING</h2></a></li>
+        <li class="menu-item"><a href="work.html"><h2>WORK</h2></a></li>
+    </ul>
+</header>
+<body>
+    <div class="animation1"></div>
+    <div class="about">
+        <div class="face_img"></div>
+        <div class="about-me">
+            <ul class="hover-button">
+                <div class="name">
+                    <li><h2 class="name-hover">NAME</h2></li>
+                    <h2 class="name-none">Shouichi Shikita</h2>
+                </div>
+                <li><h2 class="me-hover">ABOUT-ME</h2></li>
+                <div class="me">
+                    <img src="./img/shouichi.jpg" alt="">
+                    <h2>不登校からN高等学校へ入学<br>そこからプログラミングに触れ、<br>Webデザインに出会いました。<br>将来はWebデザイナー兼AIエンジニアとして、<br>羽ばたきます!</h2>
+                </div>
+                <li><h2 class="skill-hover">SKILL</h2></li>
+                <div class="skill">
+                    <div class="html">
+                        <h3>HTML,CSS</h3>
+                        <canvas id="html" style= "width: calc(100vw/5); height: auto"></canvas>
+                    </div>
+                    <div class="js">
+                        <h3>JavaScript</h3>
+                        <canvas id="js" style= "width: calc(100vw/5); height: auto"></canvas>
+                    </div>
+                    <div class="python">
+                        <h3>Python</h3>
+                        <canvas id="Python" style= "width: calc(100vw/5); height: auto"></canvas>
+                    </div>
+                </div>
+                <div class="hobby">
+                    <li><h2 class="hobby-hover">HOBBY</h2></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <script src="style.js"></script>
+    <script src="chart.js"></script>
+</body>
+<footer>
+    <p>&copy;2022 Shochan Studio</p>
+</footer>
+</html>

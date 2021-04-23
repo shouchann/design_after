@@ -116,6 +116,51 @@ h1.prg_title{
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
+/* about.css */
+.me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.me img{
+    width: calc(100vw/4);
+    height: auto;
+    border-radius: 5vw;
+    object-fit: cover;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hover-button{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.hover-button li{
+    list-style: none;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.displaynone-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    
+    left: 10%;
+}
+.displaynone-2 img{
+    width: 15vw;
+    height: auto;
+}
+.me, .skill ,.hobby{
+    display: flex;
+    flex-direction: column;
+}
+
 @keyframes under-width{
     0%{
         width: 0;
@@ -160,18 +205,6 @@ h1.prg_title{
         margin: 0 auto;
         height: 5em;
     }
-}
-/* about */
-.me{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.me img{
-    width: calc(100vw/4);
-    height: auto;
-    border-radius: 5vw;
-    object-fit: cover;
 }
 .the_prg{
     display: flex;
@@ -407,6 +440,5 @@ footer{
     position: absolute;
     left: 40vw;
     right: 40vw;
-    bottom: 0;
     text-align: center;
 }
